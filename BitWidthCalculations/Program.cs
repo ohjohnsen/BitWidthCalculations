@@ -29,7 +29,7 @@ namespace BitWidthCalculations
                 Console.WriteLine("Method 1: " + stopwatch.ElapsedMilliseconds + "  Bit width: " + bitWidth);
 
 
-                // METHO
+                // METHOD 2
                 stopwatch.Restart();
                 for (int i = 0; i < Iterations; ++i)
                 {
